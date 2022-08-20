@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  margin-right: 30px;
+  margin-left: 30px;
+  color: aliceblue;
+  background-color: rgb(49, 48, 48);
+}
+.format{
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.text1,.text2,.text3,.text4,.text5,.text6{
+  display: flex;
+  justify-content: baseline;
+  line-height: 1.2;
+}
+h5{
+  display: flex;
+  justify-content: center;
+}
+.rounded{
+  max-width: 15rem;
+  max-height: 25rem;
+  align-items: center;
+}
+.rounded:hover{
+  width: fit-content;
+  height: fit-content;
+}
+.alert-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mb-0{
+ justify-content: space-evenly;
+}

@@ -1,0 +1,72 @@
+@keyframes trocaACor 
+{
+0%   {background:rgb(179, 179, 211);}
+25%  {background:rgb(141, 120, 120);}
+50%  {background:rgb(129, 94, 129);}
+75%  {background:rgb(82, 62, 92);}
+100% {background:rgb(189, 179, 179);}
+}
+.container-fluid {
+  display: flex;
+  margin: 10px;
+  color: aliceblue;
+  background-color: rgb(43, 42, 42);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  animation: trocaACor 10s infinite;
+}
+.nome {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  
+}
+.btn {
+  min-width: 10rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*Extra small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap 
+ Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) {
+  .nav-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .btn {
+    margin-top: 10px;
+    min-width: 20rem;
+  }
+  .container-fluid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 20rem;
+  }
+
+  /* Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) {
+  }
+
+  /* Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) {
+  }
+  /* Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+  }
+}
